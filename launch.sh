@@ -17,5 +17,5 @@
     echo ''
     node sources/Production_CC.js
     node sources/Production_DC.js
-   node sources/Production_LTSC.js
+    node sources/Production_LTSC.js
 } > defconfig
