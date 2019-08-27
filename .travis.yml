@@ -10,7 +10,7 @@ script:
   - echo $(date +%s) = $(date) > lastUpdated
 deploy:
   provider: pages
-  edge: true
+  #edge: true
   github-token: $GITHUB_TOKEN
   skip-cleanup: true
   target-branch: master
