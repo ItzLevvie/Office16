@@ -1,7 +1,7 @@
 Dogfood_DevMain   : ea4a4090-de26-49d7-93c1-91bff9e53fc3 : 16.0.12102.20000
-Dogfood_CC        : f3260cf1-a92c-4c75-b02e-d64c0a86a968 : 16.0.12026.20086
+Dogfood_CC        : f3260cf1-a92c-4c75-b02e-d64c0a86a968 : 16.0.12026.20090
 Dogfood_FRDC      : 834504cc-dc55-4c6d-9e71-e024d0253f6d : 16.0.11929.20260
-Dogfood_DCEXT     : c4a7726f-06ea-48e2-a13a-9d78849eb706 : 16.0.10730.20370
+Dogfood_DCEXT     : c4a7726f-06ea-48e2-a13a-9d78849eb706 : 16.0.10730.20380
 
 Microsoft_DevMain : b61285dd-d9f7-41f2-9757-8f61cba4e9c8 : 16.0.12026.20000
 Microsoft_CC      : 5462eee5-1e97-495b-9370-853cd873bb07 : 16.0.11929.20254
@@ -12,7 +12,7 @@ Microsoft_LTSC    : 1d2d2ea6-1680-4c56-ac58-a441c8c24ff9 : 16.0.10350.20019
 Insiders_DevMain  : 5440fd1f-7ecb-4221-8110-145efaa6372f : 16.0.12026.20000
 Insiders_CC       : 64256afe-f5d9-4f86-8936-8840a6a4f5be : 16.0.11929.20254
 Insiders_FRDC     : b8f9b850-328d-4355-9145-c59439a0c4cf : 16.0.11328.20392
-Insiders_LTSC     : 2e148de9-61c8-4051-b103-4af54baffbb4 : 16.0.10350.20000
+Insiders_LTSC     : 2e148de9-61c8-4051-b103-4af54baffbb4 : 16.0.10350.20019
 
 Production_CC     : 492350f6-3a01-4f97-b9c0-c7c6ddf67d60 : 16.0.11929.20254
 Production_DC     : 7ffbc6bf-bc32-4f92-8982-f9dd17fd3114 : 16.0.11328.20392
