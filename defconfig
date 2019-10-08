@@ -11,7 +11,7 @@ Microsoft_LTSC    : 1d2d2ea6-1680-4c56-ac58-a441c8c24ff9 : 16.0.10351.20054
 
 Insiders_DevMain  : 5440fd1f-7ecb-4221-8110-145efaa6372f : 16.0.12126.20000
 Insiders_CC       : 64256afe-f5d9-4f86-8936-8840a6a4f5be : 16.0.12026.20320
-Insiders_FRDC     : b8f9b850-328d-4355-9145-c59439a0c4cf : 16.0.11929.20300
+Insiders_FRDC     : b8f9b850-328d-4355-9145-c59439a0c4cf : 16.0.11929.20388
 Insiders_LTSC     : 2e148de9-61c8-4051-b103-4af54baffbb4 : 16.0.10351.20054
 
 Production_CC     : 492350f6-3a01-4f97-b9c0-c7c6ddf67d60 : 16.0.12026.20320
