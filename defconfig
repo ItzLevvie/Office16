@@ -6,11 +6,9 @@ Dogfood_DCEXT     : c4a7726f-06ea-48e2-a13a-9d78849eb706 : 16.0.10730.20386
 Microsoft_DevMain : b61285dd-d9f7-41f2-9757-8f61cba4e9c8 : 16.0.12209.20010
 Microsoft_CC      : 5462eee5-1e97-495b-9370-853cd873bb07 : 16.0.12130.20184
 Microsoft_FRDC    : 9a3b7ff2-58ed-40fd-add5-1e5158059d1c : 16.0.11929.20396
-Microsoft_DC      : f4f024c8-d611-4748-a7e0-02b6e754c0fe : 16.0.11328.20438
 Microsoft_LTSC    : 1d2d2ea6-1680-4c56-ac58-a441c8c24ff9 : 16.0.10352.20003
 
 Insiders_DevMain  : 5440fd1f-7ecb-4221-8110-145efaa6372f : 16.0.12209.20010
-Insiders_CC       : 64256afe-f5d9-4f86-8936-8840a6a4f5be : 16.0.12130.20184
 Insiders_FRDC     : b8f9b850-328d-4355-9145-c59439a0c4cf : 16.0.11929.20396
 Insiders_LTSC     : 2e148de9-61c8-4051-b103-4af54baffbb4 : 16.0.10351.20054
 
