@@ -15,6 +15,8 @@ script:
 deploy:
   provider: pages
   edge: true
+  name: $GITHUB_NAME
+  email: $GITHUB_EMAIL
   token: $GITHUB_TOKEN
   target_branch: master
   keep_history: true
