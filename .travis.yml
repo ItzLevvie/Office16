@@ -1,0 +1,21 @@
+os: linux
+language: node_js
+node_js: node
+cache:
+  npm: false
+group: travis_latest
+dist: bionic
+git:
+  depth: 1
+  quiet: true
+script:
+  - sh launch.sh
+  - echo $(date +%s) = $(date) > lastUpdated
+deploy:
+  provider: pages
+  edge: true
+  name: $GITHUB_NAME
+  email: $GITHUB_EMAIL
+  token: $GITHUB_TOKEN
+  target_branch: master
+  keep_history: true
