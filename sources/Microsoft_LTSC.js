@@ -8,9 +8,9 @@ https.get(`https://mrodevicemgr.edog.officeapps.live.com/mrodevicemgrsvc/api/v2/
         if (getResponse.statusCode === 200) {
             const getParsedData = JSON.parse(getData);
             const getBuild = getParsedData.AvailableBuild;
-            console.log(`Microsoft_LTSC : ${getFFN} : ${getBuild}`);
+            console.log(`Microsoft_LTSC    : ${getFFN} : ${getBuild}`);
         } else {
-            console.log(`Microsoft_LTSC : ${getFFN} : ${getBuild}`);
+            console.log(`Microsoft_LTSC    : ${getFFN} : ${getBuild}`);
         };
     });
 });
