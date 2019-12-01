@@ -8,9 +8,9 @@ https.get(`https://mrodevicemgr.edog.officeapps.live.com/mrodevicemgrsvc/api/v2/
         if (getResponse.statusCode === 200) {
             const getParsedData = JSON.parse(getData);
             const getBuild = getParsedData.AvailableBuild;
-            console.log(`Dogfood_DCEXT : ${getFFN} : ${getBuild}`);
+            console.log(`Dogfood_DCEXT     : ${getFFN} : ${getBuild}`);
         } else {
-            console.log(`Dogfood_DCEXT : ${getFFN} : ${getBuild}`);
+            console.log(`Dogfood_DCEXT     : ${getFFN} : ${getBuild}`);
         };
     });
 });

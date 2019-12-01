@@ -1,3 +1,4 @@
+@echo off
 (
     node sources\Dogfood_DevMain.js
     node sources\Dogfood_CC.js
