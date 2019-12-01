@@ -1,7 +1,7 @@
 const https = require("https");
 
 const getFFN = "b61285dd-d9f7-41f2-9757-8f61cba4e9c8";
-const getBuild = "";
+const getBuild = "16.0.12307.20000";
 
 https.get(`https://mrodevicemgr.officeapps.live.com/mrodevicemgrsvc/api/v2/C2RReleaseData?audienceFFN=${getFFN}`, (getResponse) => {
     getResponse.on("data", (getData) => {
