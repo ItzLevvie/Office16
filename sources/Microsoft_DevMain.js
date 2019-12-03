@@ -11,6 +11,6 @@ https.get(`https://mrodevicemgr.edog.officeapps.live.com/mrodevicemgrsvc/api/v2/
             console.log(`Microsoft_DevMain : ${getFFN} : ${getBuild}`);
         } else {
             console.log(`Microsoft_DevMain : ${getFFN} : ${getBuild}`);
-        };
+        }
     });
 });

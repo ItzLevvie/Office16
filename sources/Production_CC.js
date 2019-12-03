@@ -11,6 +11,6 @@ https.get(`https://mrodevicemgr.edog.officeapps.live.com/mrodevicemgrsvc/api/v2/
             console.log(`Production_CC     : ${getFFN} : ${getBuild}`);
         } else {
             console.log(`Production_CC     : ${getFFN} : ${getBuild}`);
-        };
+        }
     });
 });
