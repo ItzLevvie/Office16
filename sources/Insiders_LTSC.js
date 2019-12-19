@@ -1,3 +1,5 @@
+"use strict";
+
 const https = require("https");
 
 const getFFN = "2e148de9-61c8-4051-b103-4af54baffbb4";
