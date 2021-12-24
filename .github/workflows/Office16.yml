@@ -13,21 +13,21 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-      - uses: actions/checkout@v2.3.4
+      - uses: actions/checkout@v2.4.0
 
-      - uses: actions/setup-node@v2.1.5
+      - uses: actions/setup-node@v2.5.0
         with:
-          node-version: 16.4.0
+          node-version: 17.3.0
 
       - run: |
           sh tools/launch.sh
 
       - run: |
-          git config core.autocrlf true
-          git config user.name "Microsoft GitHub User"
-          git config user.email msftgits@microsoft.com
+          git config --local core.autocrlf true
+          git config --local user.name "Microsoft GitHub User"
+          git config --local user.email msftgits@microsoft.com
 
       - run: |
           git add .
-          git commit -m "$(date)"
+          git commit --message "$(date)"
           git push
