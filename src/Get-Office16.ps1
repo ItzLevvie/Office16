@@ -4,7 +4,7 @@ param (
     [string]$Audience,
 
     [Parameter(Mandatory = $true)]
-    #[ValidateSet("", IgnoreCase = $false)]
+    [ValidateSet("DevMain", "CC", "DCEXT", "FRDC", "DC", "LTSC2024", "LTSC2021", "LTSC", "MEC", IgnoreCase = $false)]
     [string]$Channel
 )
 
