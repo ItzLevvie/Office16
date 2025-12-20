@@ -11,7 +11,7 @@ param (
 $ErrorActionPreference = "SilentlyContinue"
 $ProgressPreference = "SilentlyContinue"
 
-
+#
 if ($Audience -eq "Dogfood") {
     if ($Channel -eq "DevMain") {
         $friendlyName = "Dogfood_DevMain    "
@@ -31,6 +31,7 @@ if ($Audience -eq "Dogfood") {
     }
 }
 
+#
 if ($Audience -eq "Microsoft") {
     if ($Channel -eq "CC") {
         $friendlyName = "Microsoft_CC       "
@@ -62,6 +63,7 @@ if ($Audience -eq "Microsoft") {
     }
 }
 
+#
 if ($Audience -eq "Insiders") {
     if ($Channel -eq "DevMain") {
         $friendlyName = "Insiders_DevMain   "
@@ -81,6 +83,7 @@ if ($Audience -eq "Insiders") {
     }
 }
 
+#
 if ($Audience -eq "Production") {
     if ($Channel -eq "CC") {
         $friendlyName = "Production_CC      "
