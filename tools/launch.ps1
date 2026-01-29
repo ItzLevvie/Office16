@@ -4,8 +4,8 @@
 & "..\src\Get-Office16.ps1" -Audience Dogfood -Channel FRDC
 Write-Output ""
 & "..\src\Get-Office16.ps1" -Audience Microsoft -Channel CC
-& "..\src\Get-Office16.ps1" -Audience Microsoft -Channel DevMain
 & "..\src\Get-Office16.ps1" -Audience Microsoft -Channel DC
+& "..\src\Get-Office16.ps1" -Audience Microsoft -Channel DevMain
 & "..\src\Get-Office16.ps1" -Audience Microsoft -Channel FRDC
 & "..\src\Get-Office16.ps1" -Audience Microsoft -Channel LTSC2024
 & "..\src\Get-Office16.ps1" -Audience Microsoft -Channel LTSC2021
