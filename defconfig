@@ -9,7 +9,7 @@ Microsoft_DevMain   : b61285dd-d9f7-41f2-9757-8f61cba4e9c8 : 16.0.18817.20000
 Microsoft_FRDC      : 9a3b7ff2-58ed-40fd-add5-1e5158059d1c : 16.0.18526.20546
 Microsoft_LTSC2024  : c02d8fe6-5242-4da8-972f-82ee55e00671 : 16.0.17932.20638
 Microsoft_LTSC2021  : 86752282-5841-4120-ac80-db03ae6b5fdb : 16.0.14334.20468
-Microsoft_LTSC      : 1d2d2ea6-1680-4c56-ac58-a441c8c24ff9 : 16.0.10417.20095
+Microsoft_LTSC      : 1d2d2ea6-1680-4c56-ac58-a441c8c24ff9 : 16.0.10417.20097
 
 Insiders_DevMain    : 5440fd1f-7ecb-4221-8110-145efaa6372f : 16.0.19728.20004
 Insiders_CC         : 64256afe-f5d9-4f86-8936-8840a6a4f5be : 16.0.19725.20004
