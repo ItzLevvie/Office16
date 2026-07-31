@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    if: github.repository_owner == 'ItzLevvie'
+
+    runs-on: windows-2025-vs2026
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: true
+
+      - run: |
+          git config --local core.autocrlf true
+          git config --local user.name "Microsoft GitHub User"
+          git config --local user.email msftgits@microsoft.com
+
+      - run: |
+          cd .\tools
+          .\launch.ps1 > ..\defconfig
+
+      - run: |
+          git add defconfig
+          git commit --message "Update to the latest Microsoft 365 builds"
+          git push
